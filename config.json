@@ -1,0 +1,9 @@
+{
+  "ollama_url": "http://localhost:11434/api/generate",
+  "model": "qwen3:8B",
+  "check_interval": 5,
+  "whitelist_commands": ["system_check", "postgres_backup", "log_cleanup", "service_keepalive"],
+  "openclaw_path": "openclaw",
+  "log_file": "heartbeat.log",
+  "log_level": "INFO"
+}
